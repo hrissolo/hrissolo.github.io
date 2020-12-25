@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navtext{
+    font-weight: 100;
+    font-size: 20px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navSpacers {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.nav-choices{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 2em;
+}
+
+.navbar__item{
+    margin-left: 2em;
+    margin-right: 2em;
+}
