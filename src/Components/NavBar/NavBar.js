@@ -25,9 +25,9 @@ export const NavBar = props => {
                 </Link>
                 </li>
                 <li className="navbar__item">
-                    {/* <Link className="navbar__link" to="/resume-pdf"> */}
+                    <a href="https://docs.google.com/document/d/e/2PACX-1vRBcR7Y_4DEhhWRBD8BQdk9-e6tC125tcsM37sFiaq-PYaxeYPGUWi-1OJms1llvA/pub">
                     <h4 className="navtext">Resume</h4>
-                {/* </Link> */}
+                    </a>
                 </li>
                 </div>
             </ul>
