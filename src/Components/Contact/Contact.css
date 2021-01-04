@@ -1,0 +1,12 @@
+.contactSection {
+    font-family: 'Oswald', sans-serif;
+}
+
+#contactBox {
+    background-color: white;
+    width: 800px;
+    height: auto;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
