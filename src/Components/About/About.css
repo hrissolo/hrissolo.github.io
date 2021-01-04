@@ -1,3 +1,18 @@
 .aboutSection {
     padding: 1em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.techStack {
+    font-family: 'Oswald', sans-serif;
+}
+
+.about {
+    background-color: white;
+    width: 800px;
+    height: auto;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }

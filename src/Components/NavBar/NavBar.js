@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css"
-import haileyheader from "./haileyHeader.png"
+import haileyheader from "./haileyHeader1-03.png"
 
 export const NavBar = props => {
     return (
         <>
-        <img src={haileyheader} height="auto" width="400px"/><br/>
+        <img className="headerimg" src={haileyheader} height="auto" width="400px"/><br/>
             <ul className="navbar">
                 <div className="nav-choices">
                 <li className="navbar__item">
