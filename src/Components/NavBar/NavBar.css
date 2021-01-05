@@ -1,18 +1,13 @@
 .navbar {
-    /* display: flex;
-    justify-content: space-between; */
-    /* align-content: center; */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%
+    margin: 0;
+    padding: 0
 }
 
 .headerimg{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
 }
 
 .navtext{
@@ -21,6 +16,7 @@
     align-items: center;
     color: black;
     font-family: 'Oswald', sans-serif;
+    width: 100%
 }
 
 ul {
@@ -31,19 +27,11 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
-    color: Red;
-}
-
-.navSpacers {
-    padding-left: 5em;
-    padding-right: 5em;
-}
 
 .nav-choices{
     display: flex;
     flex-flow: row nowrap;
-    margin-right: 2em;
+    justify-content: center;
 }
 
 .navbar__item{

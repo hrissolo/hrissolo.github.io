@@ -5,8 +5,11 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    padding: 1em;
+    /* align-items: baseline */
 }
 
+/* //icon image size */
 .footerIcon {
     display: flex;
     width: 60px;
