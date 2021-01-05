@@ -9,7 +9,7 @@ import { Contact } from "./Components/Contact/Contact"
 
 export const ApplicationViews = props => {
     return (
-        <div>
+        <>
             <Route exact path='/'>
                 <Work/>
             </Route>
@@ -24,6 +24,6 @@ export const ApplicationViews = props => {
             
             <Route exact path='/resume'>
             </Route>
-        </div>
+        </>
     )
 }

@@ -8,7 +8,6 @@ export const Contact = props => {
         <section id="contactBox">
             <div className="contactSection">
                 <h2>Contact</h2>
-                    <p>here's my links xo </p>
             </div>
         </section>
         </>

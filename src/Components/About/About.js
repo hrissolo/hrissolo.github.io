@@ -2,6 +2,7 @@ import React from "react";
 import { Contact } from "../Contact/Contact";
 // import { Link } from "react-router-dom";
 import "./About.css"
+import photoMe from "./HaileyPhoto.jpg"
 
 export const About = props => {
     return (
@@ -26,6 +27,12 @@ export const About = props => {
                     <li>Firebase</li>
                 </ul></p>
             </div>
+
+                    
+            <div className="photoooMe">
+                <img className="me" src={photoMe}></img>
+            </div>
+
         </section>
         </>
     );

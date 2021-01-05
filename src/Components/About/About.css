@@ -1,18 +1,38 @@
 .aboutSection {
-    padding: 1em;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
 }
 
 .techStack {
     font-family: 'Oswald', sans-serif;
+    font-weight: 300;
 }
 
 .about {
+    padding: 1em;
     background-color: white;
     width: 800px;
     height: auto;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.me{
+    height: auto;
+    width: 300px
+}
+
+h2 {
+    color: #F4935A;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+ul {
+    padding-inline-start: 0px
 }

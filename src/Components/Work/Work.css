@@ -1,3 +1,15 @@
 .workSection {
     font-family: 'Oswald', sans-serif;
+    background-color: white;
+    width: 800px;
+    height: auto;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
 }
+
+/* .workBox {
+    width: 250px;
+    height: auto
+} */
