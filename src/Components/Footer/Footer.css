@@ -5,9 +5,22 @@
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding: 1em; }
     /* align-items: baseline */
+
+
+@media only screen and (max-width: 400px) {
+    .footerSection{
+        width: 330px;
+    }
 }
+
+@media only screen and (max-width: 400px) {
+    .footerText {
+        text-align: center;
+    }
+}
+
 
 /* //icon image size */
 .footerIcon {

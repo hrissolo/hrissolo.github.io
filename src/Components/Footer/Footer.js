@@ -14,7 +14,8 @@ export const Footer = props => {
                 <a target="_blank" href="mailto:hrissolo@gmail.com?"><img className="footerIcon" src={iconGmail} alt="Gmail"/></a>
                 <a target="_blank" href="https://www.linkedin.com/in/haileyrissolo/"><img className="footerIcon" src={iconLinkedin} alt="LinkedIn"/></a>
                 </section>
-                Hailey Rissolo 2020 | hrissolo@gmail.com 
+                <section className="footerText">Hailey Rissolo 2020 | hrissolo@gmail.com 
+                </section>
             </div>
         </>
     );
