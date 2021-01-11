@@ -3,6 +3,7 @@
 import React from "react";
 import { Route } from "react-router-dom"
 import { Work } from "./Components/Work/Work"
+import { ReptiRomanceCaseStudy } from "./Components/Work/ReptiRomance"
 import { About } from "./Components/About/About"
 import { Contact } from "./Components/Contact/Contact"
 //import all of the providers /lists + forms 
@@ -12,6 +13,10 @@ export const ApplicationViews = props => {
         <>
             <Route exact path='/'>
                 <Work/>
+            </Route>
+
+            <Route exact path='/reptiromance'>
+                <ReptiRomanceCaseStudy/>
             </Route>
 
             <Route exact path='/about'>

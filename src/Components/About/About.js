@@ -14,8 +14,8 @@ export const About = props => {
             </div>
 
             <div className="techStack">
-                <h2>Tech Stack</h2>
-                <p><ul><li>Javascript</li>
+                <p><h2>Tech Stack</h2>
+                <ul><li>Javascript</li>
                     <li>HTML5 + CSS3 </li>
                     <li>React </li>
                     <li>Adobe Photoshop</li>

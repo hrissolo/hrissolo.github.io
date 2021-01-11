@@ -1,6 +1,8 @@
 .navbar {
     margin: 0;
-    padding: 0
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .headerimg{
@@ -9,6 +11,23 @@
     margin-right: auto;
     width: 50%;
 }
+
+@media only screen and (max-width: 400px) {
+    .headerimg
+        {
+            width: 100%;
+        }
+    
+    .navbar__item{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    .nav-choices{
+        width: 70%
+    }
+}
+
 
 .navtext{
     font-weight: 100;
@@ -32,6 +51,8 @@ a:link {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    align-items: center;
+    width: 100%
 }
 
 .navbar__item{

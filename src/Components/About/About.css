@@ -6,6 +6,7 @@
 .techStack {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
+    padding-top: 30px
 }
 
 .about {
@@ -16,10 +17,19 @@
     align-self: center;
     margin-left: auto;
     margin-right: auto;
-
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 400px) {
+    .about {
+        width: 330px;
+        display:block;
+    }
+
+
 }
 
 .me{
