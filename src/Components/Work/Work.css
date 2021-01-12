@@ -37,8 +37,26 @@
     .caseStudy {
         width: 330px;
     }
+
+    .workSection {
+        align-items: center;
+    }
+
+    .reptiWORK {
+        width: 100%
+    }
 }
 
-.header {
-    font-family: 'Oswald', sans-serif !important;
+.title {
+    font-size: large;
+}
+
+.workBox {
+    width: 250px;
+    height: auto;
+}
+
+.workCards {
+    display: flex;
+    align-items: center;
 }
