@@ -11,7 +11,9 @@ export const ReptiRomanceCaseStudy = props => {
                 <h2>Repti-Romance</h2>
                 <b>Repti-Romance Case Study</b>
                     <p>
-                    Overview: 
+                    <a href="https://github.com/hrissolo/repti-romance">Github Repository</a>
+                    </p>
+                    <p>
                     Repti-Romance is a silly tinder-esque messaging & dating app designed for reptilians to meet. The purpose of this Capstone project was to show that I could manage an API/local database and implement CRUD: create, read, update & delete. 
                     </p>
                     <p>
@@ -22,8 +24,8 @@ export const ReptiRomanceCaseStudy = props => {
                     
                     The user is any and all reptiles or amphibians. We expect that these creatures will have no problem messaging each other without human supervision.  
                     </p>
-                    <img src={ERD} width="50%"></img>
-                    <img src={outline} width="50%"></img>
+                    <img className="reptiWORK" src={ERD} width="50%"></img>
+                    <img className="reptiWORK" src={outline} width="50%"></img>
                     <p>
                     
                     I planned, created, designed and built this app solo in two weeks. I began by creating an ERD, wireframe and an outline of the data & components. 
@@ -40,7 +42,7 @@ export const ReptiRomanceCaseStudy = props => {
                     
                     In the end, I am very proud of how my app turned out. Picking a goofy concept definitely helped me keep my head in the game. I learned a lot about javascript, React and my own ability to work through tricky coding problems. I tackled complicated user-to-user data relationships for the first time. Users can scroll through potential matches, mutually match and message each other. I used CRUD in the messaging component where you can send, edit and delete messages. In V2 of Repti-Romance, I would create a ‘negative match’ part of the match database. This is so if the user clicks “pass” instead of “match” the potential match would no longer show up again. Currently when the user clicks “pass”, the app shows you the next user but would still show who you “passed” on when you refresh the page. 
                     </p>
-                    <img src={papi} width="50%"></img>
+                    <img className="reptiWORK" src={papi} width="50%"></img>
             </div>
         </>
     );
