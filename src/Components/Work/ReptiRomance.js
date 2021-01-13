@@ -11,7 +11,7 @@ export const ReptiRomanceCaseStudy = props => {
                 <h2>Repti-Romance</h2>
                 <b>Repti-Romance Case Study</b>
                     <p>
-                    <a href="https://github.com/hrissolo/repti-romance">Github Repository</a>
+                    <a target="_blank" href="https://github.com/hrissolo/repti-romance">Github Repository</a>
                     </p>
                     <p>
                     Repti-Romance is a silly tinder-esque messaging & dating app designed for reptilians to meet. The purpose of this Capstone project was to show that I could manage an API/local database and implement CRUD: create, read, update & delete. 
