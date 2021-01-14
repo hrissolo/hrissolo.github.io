@@ -9,19 +9,6 @@
     padding: 1em; 
 }
 
-@media only screen and (max-width: 400px) {
-    .workSection {
-        font-family: 'Oswald', sans-serif;
-        background-color: white;
-        width: 330px;
-        height: auto;
-        align-self: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 1em; 
-    }
-}
-
 .caseStudy {
     font-family: 'Oswald', sans-serif;
     background-color: white;
@@ -31,6 +18,8 @@
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 @media only screen and (max-width: 400px) {
@@ -39,7 +28,14 @@
     }
 
     .workSection {
-        align-items: center;
+        font-family: 'Oswald', sans-serif;
+        background-color: white;
+        width: 330px;
+        height: auto;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em; 
     }
 
     .reptiWORK {
@@ -52,11 +48,24 @@
 }
 
 .workBox {
-    width: 250px;
+    width: 220px;
     height: auto;
 }
 
 .workCards {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.workCard {
+    padding: 1em
+}
+
+.githubLink {
+    font-size: large;
+}
+
+.highlightText{
+    color: #F4935A;
 }

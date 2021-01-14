@@ -25,7 +25,7 @@ export const NavBar = props => {
                 </Link>
                 </li>
                 <li className="navbar__item">
-                    <a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vRBcR7Y_4DEhhWRBD8BQdk9-e6tC125tcsM37sFiaq-PYaxeYPGUWi-1OJms1llvA/pub">
+                    <a target="_blank" href="https://docs.google.com/document/d/e/2PACX-1vTs8DiuF7D_imsb3ocNH3lC4OFwTJ0a1Qg9iLEZVSI9Wxwtq6tURvflfs9rb1ObMffm2-BZmMKnm7Ul/pub">
                     <h4 className="navtext">Resume</h4>
                     </a>
                 </li>
