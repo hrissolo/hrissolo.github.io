@@ -19,24 +19,6 @@ export const Work = props => {
                     </div>
                     
 
-                    <div className="workCard">
-                        <Link to="/reptiromance">
-                        <img className="workBox" src={work1} wrapped ui={false}></img>
-                        </Link>
-                        <div className="title">Repti-Romance</div>
-                        <p>October 2020 | Capstone <br/>
-                        <Link to="/reptiromance" >Read more!</Link></p>
-                    </div>
-
-
-                    <div className="workCard">
-                        <Link to="/reptiromance">
-                        <img className="workBox" src={work1} wrapped ui={false}></img>
-                        </Link>
-                        <div className="title">Repti-Romance</div>
-                        <p>October 2020 | Capstone <br/>
-                        <Link to="/reptiromance" >Read more!</Link></p>
-                    </div>
                 </section>
             </div>
         </>
