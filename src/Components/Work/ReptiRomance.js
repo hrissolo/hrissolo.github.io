@@ -31,9 +31,9 @@ export const ReptiRomanceCaseStudy = props => {
                     We expect that these creatures will have no problem messaging each other without human supervision.  
                     </p>
                     <b>ERD: </b><br/>
-                    <img className="reptiWORK" src={ERD} width="75%"></img><br/>
+                    <img className="WORKimgs" src={ERD} width="75%"></img><br/>
                     <b>Outline: </b><br/>
-                    <img className="reptiWORK" src={outline} width="75%"></img>
+                    <img className="WORKimgs" src={outline} width="75%"></img>
                     <p>
                     <b>Roles & Responsibilities: </b><br/>
                     I planned, created, designed and built this app solo in two weeks. I began by creating an <br/>
