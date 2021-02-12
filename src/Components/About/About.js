@@ -19,12 +19,12 @@ export const About = props => {
                 <ul><li>Javascript</li>
                     <li>HTML5 + CSS3 </li>
                     <li>React </li>
+                    <li>Figma</li>
+                    <li>Git & Github </li>
                     <li>Adobe Photoshop</li>
                     <li>Adobe Illustrator</li>
                     <li>Adobe InDesign</li>
-                    <li>Git & Github </li>
                     <li>Sass </li>
-                    <li>Visual Studio Code</li>
                     <li>Firebase</li>
                 </ul></p>
             </div>
