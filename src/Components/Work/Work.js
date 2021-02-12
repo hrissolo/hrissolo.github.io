@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import work1 from "./work-imgs/ReptiRomance.png"
+import work2 from "./work-imgs/GHouse-home.png"
 import "./Work.css"
 
 export const Work = props => {
@@ -12,7 +13,7 @@ export const Work = props => {
 
                     <div className="workCard">
                         <Link to="/gratitude">
-                        <img className="workBox" src={work1} wrapped ui={false}></img>
+                        <img className="workBox" src={work2} wrapped ui={false}></img>
                         </Link>
                         <div className="title">Gratitude Houses</div>
                         <p>February 2021 | Final Capstone <br/>
